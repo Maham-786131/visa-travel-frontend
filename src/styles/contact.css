@@ -1,0 +1,37 @@
+/* Contact Page Styles */
+.contact-page {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+/* Primary Theme Color */
+.text-primary {
+  color: #0a3d62 !important;
+}
+
+.btn-primary {
+  background-color: #0a3d62 !important;
+  border-color: #0a3d62 !important;
+}
+
+.btn-primary:hover {
+  background-color: #072f4b !important;
+  border-color: #072f4b !important;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #0a3d62;
+}
+
+.fw-bold {
+  color: #0a3d62;
+}
+
+.bg-light {
+  background-color: #e9f0f5 !important;
+}

@@ -1,0 +1,99 @@
+.about-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-hero {
+  background: #f0f4f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #0a3d62;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.company-background,
+.certifications,
+.why-choose-us,
+.about-cta {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.certifications ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.features {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feature {
+  flex: 1 1 250px;
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.feature h3 {
+  margin-bottom: 10px;
+  color: #0a3d62;
+}
+
+.btn-cta {
+  display: inline-block;
+  background: #0a3d62;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-cta:hover {
+  background: #06334a;
+}
+.certifications-carousel {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.certifications-carousel h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0a3d62;
+}
+
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  color: #fff;
+}

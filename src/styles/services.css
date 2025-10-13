@@ -1,0 +1,133 @@
+.services-page {
+  padding: 60px 20px;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section */
+.services-header {
+  margin-bottom: 60px;
+}
+
+.services-header h1 {
+  font-size: 2.8rem;
+  color: #0a3d62;
+  margin-bottom: 15px;
+}
+
+.services-header p {
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Service Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.service-box {
+  background: #f8f9fa;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.service-box:hover {
+   transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+
+/* Image */
+.service-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.service-box:hover .service-image img {
+  transform: scale(1.1);
+}
+
+/* Overlay */
+.service-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0a3d62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.service-box:hover .service-overlay {
+  opacity: 1;
+}
+
+/* List */
+.service-box ul {
+  list-style: none;
+  padding: 25px;
+  margin: 0;
+}
+
+.service-box li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.service-box li::before {
+  content: "✔";
+  color: #0a3d62;
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: #0a3d62;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.cta-section h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .service-image {
+    height: 180px;
+  }
+}
