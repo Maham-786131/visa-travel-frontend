@@ -2,10 +2,10 @@ import React from "react";
 import HomeCarousel from "../components/HomeCarousel";
 import "../styles/Home.css";
 // Import category images
-import visaImg from "../assets/images/visa.jpg";
-import passportImg from "../assets/images/passport.jpg";
-import translationImg from "../assets/images/translation.jpg";
-import travelImg from "../assets/images/travel.jpg";
+//import visaImg from "../assets/images/visa.jpg";
+//import passportImg from "../assets/images/passport.jpg";
+//import translationImg from "../assets/images/translation.jpg";
+//import travelImg from "../assets/images/travel.jpg";
 
 
 const Home = () => {
@@ -20,22 +20,22 @@ const Home = () => {
     {
       title: "Visa Services",
       desc: "Tourist, Business, and Student Visas",
-      img: visaImg, // visa image
+      img: `${process.env.PUBLIC_URL}/images/visaImg`, // visa image
     },
     {
       title: "Passport Assistance",
       desc: "New, Renewal, and Lost Passport Support",
-      img: passportImg, // Passport image
+      img: `${process.env.PUBLIC_URL}/images/passportImg`, // Passport image
     },
     {
       title: "Translations",
       desc: "Certified document translations",
-      img: translationImg, // Documents image
+      img: `${process.env.PUBLIC_URL}/images/translationImg`, // Documents image
     },
     {
       title: "Travel Services",
       desc: "Flight booking and insurance",
-      img:travelImg, // Travel image
+      img:`${process.env.PUBLIC_URL}/images/travelImg`, // Travel image
     },
   ];
 
