@@ -17,7 +17,7 @@ function App() {
       <Navbar /> {/* Navbar inside Router */}
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
-        //<Route path="/" element={<Home />} /> {/* Home page */}
+        <Route path="/" element={<Home />} /> {/* Home page */}
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
