@@ -21,6 +21,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+          {/* Optional: catch all unknown routes */}
+        <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
       <Footer /> {/* Footer inside Router */}
        <WhatsAppButton />  {/* Floating WhatsApp Chat */}
