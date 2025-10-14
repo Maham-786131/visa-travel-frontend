@@ -13,7 +13,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/visa-travel-frontend">
       <Navbar /> {/* Navbar inside Router */}
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
