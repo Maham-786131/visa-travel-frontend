@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -17,17 +17,13 @@ function App() {
       <Navbar />
 
       <Routes>
-        {/* Redirect root URL to /home */}
-        <Route path="/" element={<Navigate to="/home" replace />} />
-
-        {/* Main Routes */}
-        <Route path="/home" element={<Home />} />
+        {/* Main Home page directly at root */}
+        <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-
-        {/* Catch-all for unknown routes */}
-        <Route path="*" element={<Navigate to="/home" replace />} />
+        {/* Catch-all route to show Home if path not found */}
+        <Route path="*" element={<Home />} />
       </Routes>
 
       <Footer />
