@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/visa-travel-frontend/static/css/main.c05c1dc6.css",
+    "main.js": "/visa-travel-frontend/static/js/main.c738d206.js",
+    "static/media/translation.jpg": "/visa-travel-frontend/static/media/translation.633284a7286849fedc97.jpg",
+    "static/media/caresol3.jpg": "/visa-travel-frontend/static/media/caresol3.531405dbc6871e142a6a.jpg",
+    "static/media/cert4.jpg": "/visa-travel-frontend/static/media/cert4.531405dbc6871e142a6a.jpg",
+    "static/media/caresol 1.jpg": "/visa-travel-frontend/static/media/caresol 1.767e5db73a2d33505f08.jpg",
+    "static/media/cert1.jpg": "/visa-travel-frontend/static/media/cert1.767e5db73a2d33505f08.jpg",
+    "static/media/caresol2.jpg": "/visa-travel-frontend/static/media/caresol2.c1e2b188679738e6ec94.jpg",
+    "static/media/cert3.jpg": "/visa-travel-frontend/static/media/cert3.c1e2b188679738e6ec94.jpg",
+    "static/media/cert2.jpg": "/visa-travel-frontend/static/media/cert2.afcbea600c973f5658a0.jpg",
+    "static/media/travel.jpg": "/visa-travel-frontend/static/media/travel.38437b4e8741bc25d494.jpg",
+    "static/media/choose2.jpg": "/visa-travel-frontend/static/media/choose2.1335763bc5e0730e4d42.jpg",
+    "static/media/visa.jpg": "/visa-travel-frontend/static/media/visa.d740c8e197dc4916e067.jpg",
+    "index.html": "/visa-travel-frontend/index.html",
+    "main.c05c1dc6.css.map": "/visa-travel-frontend/static/css/main.c05c1dc6.css.map",
+    "main.c738d206.js.map": "/visa-travel-frontend/static/js/main.c738d206.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c05c1dc6.css",
+    "static/js/main.c738d206.js"
+  ]
+}
