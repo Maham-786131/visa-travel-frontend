@@ -22,7 +22,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-       
+        {/* Catch-all route to show Home if path not found */}
+        <Route path="*" element={<Home />} />
       </Routes>
 
       <Footer />
