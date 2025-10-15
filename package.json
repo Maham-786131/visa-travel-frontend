@@ -1,7 +1,8 @@
 {
- "homepage": "https://maham-786131.github.io/visa-travel-frontend/",
+ 
   "name": "visa-travel-services",
   "version": "0.1.0",
+ "homepage": "https://maham-786131.github.io/visa-travel-frontend/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
